@@ -8,7 +8,7 @@ Features
 
 ## Getting Started
 
-Get started with TimePass Frontend in a few simple steps.
+Get started with Coding Club Frontend in a few simple steps.
 
 ### Prerequisites
 
@@ -19,18 +19,18 @@ Get started with TimePass Frontend in a few simple steps.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Aniket-3103/FrontEnd-Website.git
+    git clone https://github.com/Aniket-3103/Coding-Club-Website.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd FrontEnd-Website
+    cd Coding-Club-Website
     ```
 
 ## Usage
 
-Open the `index.html` file in your preferred web browser to start your TimePass experience. Explore the various animations and interactive elements to make the most of your time.
+Open the `index.html` file in your preferred web browser to start your interactive website experience. Explore the various animations and interactive elements to make the most of your time.
 
 
 ## Contact
