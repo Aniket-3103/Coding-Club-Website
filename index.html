@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="nav" class="nav">
+        <img src="robot.png" style="height: 65px;">
+        <h4>Web Development</h4>
+        <h4>Android Development</h4>
+        <h4>Blockchain</h4>
+        <h4>Data Science</h4>
+        <h4>ABOUT</h4>
+    </div>
+
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <!-- Video needs to be muted to play in browser -->
+    <video autoplay loop muted src="video.mp4"></video>
+    <div id="main">
+        <div class="page1">
+            <h1>EAT. CODE. SLEEP. REPEAT.</h1>
+            <h2>WELCOME TO MISHRA'S CODING ARENA!</h2>
+            <p>Mishra's Coding Arena is a coding club situated in NallaSopara. Passionate about development and
+                technology? Embark on a journey of tech mastery with us! </p>
+            <div id="arrow">
+                <i class="ri-arrow-down-line"></i>
+            </div>
+        </div>
+
+        <!-- infinite scroller. We can directly use marquee tag for infinite scroller -->
+        <div class="page2">
+            <div id="scroller">
+                <div id="scroller-in">
+                    <h4>WEB DEVELOPMENT</h4>
+                    <h4>ANDROID DEVELOPMENT</h4>
+                    <h4>BLOCKCHAIN</h4>
+                    <h4>DATA SCIENCE</h4>
+                    <h4>ABOUT</h4>
+                </div>
+                <div id="scroller-in">
+                    <h4>WEB DEVELOPMENT</h4>
+                    <h4>ANDROID DEVELOPMENT</h4>
+                    <h4>BLOCKCHAIN</h4>
+                    <h4>DATA SCIENCE</h4>
+                    <h4>ABOUT</h4>
+                </div>
+            </div>
+
+            <div id="about-us">
+                <img src="webdevImage.jpg" alt="">
+                <div id="about-us-in">
+                    <h3>ABOUT US</h3>
+                    <p>At Mishra's Coding Arena, we don't just teach code; we orchestrate symphonies of innovation and
+                        ignite the spark of endless possibilities! It is more than a classroom; it's a thriving
+                        ecosystem where passion meets expertise. From web development to Android app mastery and the
+                        enchanting world of data
+                        science, we offer a spectrum of courses tailored to your coding aspirations.</p>
+                </div>
+                <img src="appDevImg.jpg" alt="">
+            </div>
+
+            <!-- interactive designs, hackathons and bootcamps, mentorship programs -->
+
+            <div id="card-container">
+                <div class="card" id="card1">
+                    <div class="overlay">
+                        <h4>Hands-On Projects</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam necessitatibus amet aperiam
+                            nemo odit ipsum ducimus neque at optio cupiditate.</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="overlay">
+                        <h4>Hackathons</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam necessitatibus amet aperiam
+                            nemo odit ipsum ducimus neque at optio cupiditate.</p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="overlay">
+                        <h4>Mentorship Programs</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam necessitatibus amet aperiam
+                            nemo odit ipsum ducimus neque at optio cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="green-div">
+                <img src="dots-side.svg" alt="">
+                <h4>SIGN UP FOR MISHRA'S CODING ARENA NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX</h4>
+                <img src="dots-side.svg" alt="">
+            </div>
+
+
+        </div>
+
+        <div class="page3">
+            <p>
+                Mishra's Coding Arena has been an incredible journey for me. The expert-led courses and hands-on
+                projects provided a holistic learning experience. The supportive and inclusive environment fostered my
+                coding skills, and the mentorship program has been invaluable.
+            </p>
+
+            <img id="colon1" src="quote-left.svg" alt="">
+            <img id="colon2" src="quote-right.svg" alt="">
+        </div>
+
+        <div class="page4">
+            <h1>WHAT ARE YOU WAITING FOR?</h1>
+            <div class="elem">
+                <h2 class="h2a">CAREER GUIDANCE</h2>
+                <img id="img1" src="career_guidance.jpg" alt="">
+            </div>
+            <div class="elem">
+                <h2 class="h2b">REGULAR ASSESSMENTS</h2>
+                <img id="img2" src="assessments.jpg" alt="">
+            </div>
+            <div class="elem">
+                <h2 class="h2a">NETWORKING OPPORTUNITIES</h2>
+                <img id="img3" src="networking.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="footer">
+            <img src="dots-side.svg" alt="">
+            <div id="f1">
+                <img src="LOGOS.jpg" alt="">
+            </div>
+            <div id="f2">
+                <h3>Web Development</h3>
+                <h3>Android Development</h3>
+                <h3>Data Science</h3>
+            </div>
+            <div id="f3">
+                <h3>Mentorship Programs</h3>
+                <h3>Hands-On Projects</h3>
+                <h3>Hackathons</h3>
+            </div>
+            <div id="f4">
+                <h4>
+                    KHATRA MAHAL <br>
+                    ANDHER NAGAR <br>
+                    SHAMSHAN GHAT <br>
+                    KE PEECHE <br>
+                    TEL: 0208 309 0181 <br />
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
