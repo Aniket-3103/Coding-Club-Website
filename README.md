@@ -1,6 +1,6 @@
 **TimePass Frontend**
 
-Welcome to the TimePass Frontend project! This is a fun and interactive web application created using HTML, CSS, and JavaScript, with the magic touch of GSAP animations. Engage in a delightful experience filled with mesmerizing visuals and playful interactions.
+Welcome to the this project where I've created the front End of coding club website! This is a fun and interactive web application created using HTML, CSS, and JavaScript, with the magic touch of GSAP animations. Engage in a delightful experience filled with mesmerizing visuals and playful interactions.
 Features
 
 - **Animations**: Enjoy a plethora of GSAP animations that bring the frontend to life.
